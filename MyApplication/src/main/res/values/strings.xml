@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">My Application</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <!-- ============================ -->
+    <!-- media examples strings -->
+    <!-- ============================ -->
+
+    <string name="local_video">Play Video from Local File</string>
+    <string name="stream_video">Play Streaming Video</string>
+    <string name="local_audio">Play Audio from Local File</string>
+    <string name="res_audio">Play Audio from Resources</string>
+    <string name="title_activity_media_player_demo__audio">MediaPlayerDemo_Audio</string>
+    <string name="title_activity_media_play_demo__video">MediaPlayDemo_Video</string>
+
+</resources>
