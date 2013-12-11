@@ -5,7 +5,7 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="7"
+        android:minSdkVersion="11"
         android:targetSdkVersion="18" />
 
     <application
@@ -16,19 +16,31 @@
         <activity
             android:name="com.example.myapplication.MediaPlayerDemo"
             android:label="@string/app_name" >
+        </activity>
+
+        <activity
+            android:name="com.example.myapplication.MediaPlayerDemo_Audio"
+            android:label="@string/title_activity_media_player_demo__audio" >
+        </activity>
+
+        <activity
+            android:name="com.example.myapplication.MediaPlayerDemo_Video"
+            android:label="@string/title_activity_media_play_demo__video" >
+        </activity>
+
+        <activity
+            android:name="com.example.myapplication.DateWidgets1"
+            android:label="DateWidgets1" >
+        </activity>
+
+        <activity
+            android:name="com.example.myapplication.DateWidgets2"
+            android:label="DateWidgets2" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity
-            android:name="com.example.myapplication.MediaPlayerDemo_Audio"
-            android:label="@string/title_activity_media_player_demo__audio" >
-        </activity>
-        <activity
-            android:name="com.example.myapplication.MediaPlayerDemo_Video"
-            android:label="@string/title_activity_media_play_demo__video" >
         </activity>
     </application>
 

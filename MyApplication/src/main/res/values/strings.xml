@@ -14,5 +14,8 @@
     <string name="res_audio">Play Audio from Resources</string>
     <string name="title_activity_media_player_demo__audio">MediaPlayerDemo_Audio</string>
     <string name="title_activity_media_play_demo__video">MediaPlayDemo_Video</string>
+    <string name="date_widgets_example_dateDisplay_text">date_widgets_example_dateDisplay_text</string>
+    <string name="date_widgets_example_pickTime_text">change the time</string>
+    <string name="date_widgets_example_pickDate_text">change the date</string>
 
 </resources>
