@@ -14,54 +14,63 @@
         android:text="HP"
         android:id="@+id/buttonHp"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="31dp" />
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/buttonAttack"
-        android:layout_marginTop="41dp"
-        android:layout_below="@+id/buttonHp"
-        android:layout_toLeftOf="@+id/buttonHp"
         android:singleLine="false"
-        android:text="Attack" />
+        android:text="Attack"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/buttonHp" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Defense"
         android:id="@+id/buttonDefense"
-        android:layout_alignTop="@+id/buttonAttack"
-        android:layout_toRightOf="@+id/buttonHp" />
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/buttonAttack" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="@id/buttonAttack"
         android:text="Sp.Atk"
         android:id="@+id/buttonSpAtk"
-        android:layout_centerVertical="true"
-        android:layout_alignLeft="@+id/buttonAttack"
-        android:layout_alignStart="@+id/buttonAttack" />
+        android:layout_below="@+id/buttonHp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Sp.Def"
         android:id="@+id/buttonSpDef"
-        android:layout_alignTop="@+id/buttonSpAtk"
-        android:layout_alignRight="@+id/buttonDefense"
-        android:layout_alignStart="@+id/buttonDefense" />
+        android:layout_below="@+id/buttonAttack"
+        android:layout_toRightOf="@+id/buttonHp" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Speed"
         android:id="@+id/buttonSpeed"
-        android:layout_alignLeft="@id/buttonHp"
-        android:layout_alignRight="@id/buttonHp"
-        android:layout_marginTop="68dp"
+        android:layout_alignTop="@+id/buttonSpDef"
+        android:layout_alignRight="@+id/buttonDefense"
+        android:layout_alignEnd="@+id/buttonDefense"
+        android:layout_alignLeft="@+id/buttonDefense"
+        android:layout_alignStart="@+id/buttonDefense" />
+
+    <Button
+        android:id="@+id/buttonConfirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alignParentBottom="true"
+        android:alignParentRight="true"
+        android:text="确定"
         android:layout_below="@+id/buttonSpAtk"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp" />
 </RelativeLayout>
